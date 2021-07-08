@@ -85,6 +85,19 @@ html {
   font-size: 30px;
 }
 
+.Background {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  inset: 0px;
+  pointer-events: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 #Background {
   position: fixed;
   margin: 0;
