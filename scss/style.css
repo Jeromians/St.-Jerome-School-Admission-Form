@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap");
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.eot");
+  /* IE9 Compat Modes */
+  src: url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.woff2") format("woff2"), url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.woff") format("woff"), url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf") format("truetype"), url("font/Gilroy-ExtraBold/Gilroy-ExtraBold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("font/Gilroy-Light/Gilroy-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("font/Gilroy-Light/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("font/Gilroy-Light/Gilroy-Light.woff2") format("woff2"), url("font/Gilroy-Light/Gilroy-Light.woff") format("woff"), url("font/Gilroy-Light/Gilroy-Light.ttf") format("truetype"), url("font/Gilroy-Light/Gilroy-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #007f5f;
+}
+
+* {
+  margin: 0px;
+}
+
+*, *::before, ::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.Form_Container {
+  display: block;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Shadow {
+  display: block;
+  position: fixed;
+  margin: auto;
+  border: 10px solid #FDB833;
+  border-radius: 50px;
+  width: 1000px;
+  height: 282px;
+  top: 235px;
+  left: 154px;
+}
+
+.Schoollogo_Titles {
+  padding: 0px;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 35px;
+}
+
+.Schoollogo_Titles_SchoolLogo {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.Schoollogo_Titles_Title {
+  font-family: 'Gilroy-ExtraBold';
+  color: #FDB833;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+  text-align: center;
+  font-size: 30px;
+}
+
+#Background {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Form_Group {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 50px;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.Form_Group > h3 {
+  font-weight: bolder;
+  font-size: larger;
+  color: #007f5f;
+}
+
+.Name_Input {
+  font-family: Gilroy-Light;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+.Name_Input > .Input_item {
+  padding: 0px 15px 0px 0px;
+}
+
+.Name_Input > .Input_item > input {
+  padding: 15px 15px;
+  width: 258px;
+  border: 1px solid #FDB833;
+  border-radius: 5px;
+}
+
+.Name_Input > .Input_item > label {
+  font-size: Small;
+  color: #007f5f;
+}
+
+.Name_Input > .Input_item > #Suffix {
+  width: 80px !important;
+}
+
+.Name_Input > #Last {
+  padding: 0px !important;
+  width: 104px !important;
+}
+
+.Next {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 50px;
+  font-family: Gilroy-Light;
+  color: #007f5f;
+  border-radius: 10px;
+  border: 1px solid #007f5f;
+  background-color: #ffffff;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  z-index: 1;
+}
+
+.Next:hover {
+  background-color: #007f5f;
+  color: white;
+  -webkit-box-shadow: -5px 5px #FDB833;
+          box-shadow: -5px 5px #FDB833;
+  -webkit-transform: translate(5px, -5px);
+          transform: translate(5px, -5px);
+  border: 0px;
+}
+
+.Next:active {
+  background-color: #ffffff;
+  color: #007f5f;
+  border: 1px solid #007f5f;
+  -webkit-box-shadow: -5px 5px #007f5f;
+          box-shadow: -5px 5px #007f5f;
+}
+/*# sourceMappingURL=style.css.map */
